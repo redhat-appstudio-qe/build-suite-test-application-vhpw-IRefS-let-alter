@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-appstudio-qe/build-e2e-guql-tenant/build-suite-test-application-vhpw/test-component-pac-ushzdc@sha256:1d888a11605156e24a29e19c19c6688ab4d32f8ace754b4819773cda9ac4a14e
+      - image: quay.io/redhat-appstudio-qe/build-e2e-guql-tenant/build-suite-test-application-vhpw/test-component-pac-ushzdc@sha256:94304bbda113a96e963f43fbad4f43a481b45e140cc09b076b4057d99f54cf01
         name: my-nginx
         resources: {}
 status: {}
