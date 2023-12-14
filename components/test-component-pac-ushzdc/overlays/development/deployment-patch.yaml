@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: test-component-pac-ushzdc
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/build-e2e-guql-tenant/build-suite-test-application-vhpw/test-component-pac-ushzdc@sha256:1d888a11605156e24a29e19c19c6688ab4d32f8ace754b4819773cda9ac4a14e
+        name: my-nginx
+        resources: {}
+status: {}
